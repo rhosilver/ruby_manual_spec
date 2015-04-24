@@ -2,7 +2,7 @@ sdkversion: "4.1.0"
 name: "ruby_manual_spec"
 version: "1.0"
 vendor: "rhomobile"
-build: "debug"
+build: "release"
 applog: "rholog.txt"
 app_type: "rhoelements"
 iphone:
@@ -26,7 +26,6 @@ wp8:
 android:
   ajax_api_bridge: false
   version: "4.2.2"
-  capabilities:
   extensions:
    - mediaplayer
    - screenorientation
